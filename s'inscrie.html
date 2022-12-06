@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrie</title>
+    <link rel="icon" type="image/x-icon" href="Styles/Photos/Logo.png">
+    <style>
+        body{
+            background-image: url("Styles/Photos/booksinscri.jpg");
+        }
+
+        .welcome{
+            text-align: center;
+            font-size: 60px;
+            color: aliceblue;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .Form{
+            position:relative;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:#ecd5b3d6;
+            padding-top: 50px;
+            width: 500px;
+            height: 500px;
+            margin-top: 50px;
+            
+        }
+        .Form table{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            
+        }
+        label{
+            font-size: large;
+            
+        }
+        
+        .i {
+            width: 400px;
+            height: 25px;
+            border-radius: 4px;
+        }
+        .buttons{
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+        .buttons input{
+            margin-left: 5px;
+        }
+        img{
+            width: 250px;
+            height: 190px;
+            margin-left: 600px;
+            
+        }
+        .return{
+            background-color: rgba(171, 131, 79, 0.595);
+            width: 160px;
+            text-align: center;
+        }
+        .return a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .return:hover ,.return a:hover , .return a:active {
+            background-color:antiquewhite;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <div class="welcome">
+        Welcome Reader :)
+    </div>
+    <img src="Styles/Photos/Top-left pic.png" alt="book">
+    <div class="Form">
+        <form action="Index.html">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Nom : </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="name" type="text" placeholder="Votre Nom" required class="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pname">Prenom : </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"  id="pname" placeholder="Votre prenom" required class="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email : </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email"  id="email" placeholder="Votre Email" required class="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Age : (optionel)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="age" type="number" placeholder="Votre Age" class="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Mot de Passe : </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="pass" type="password" placeholder="Votre mot de passe" required class="i">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Comment vous avez-nous connu?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input type="checkbox" id="a"> <label for="a">Facebook ADS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input type="checkbox" id="b"><label for="b"> D'un ami</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <input type="checkbox" id="c"><label for="c"> Youtube ADS</label>
+                    </td>
+                </tr>
+            
+
+                
+            </table>
+            <div class="buttons">
+                <input type="submit" value="S'inscrie"><input type="reset" value="Effacer">
+            </div>
+        </form>
+
+    </div>
+    <div class="return">
+        <a href="Index.html"><h2>Back Home</h2></a>
+
+    </div>
+    
+</body>
+</html>
